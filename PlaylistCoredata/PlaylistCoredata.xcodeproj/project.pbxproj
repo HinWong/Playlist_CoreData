@@ -16,6 +16,8 @@
 		4EC206BA24102735002F07DE /* Playlist+Convenience.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EC206B924102735002F07DE /* Playlist+Convenience.swift */; };
 		4EC206BC24102898002F07DE /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EC206BB24102898002F07DE /* CoreDataStack.swift */; };
 		4EC206BE24102F07002F07DE /* Song+Convenience.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EC206BD24102F07002F07DE /* Song+Convenience.swift */; };
+		4EC206C02410336B002F07DE /* PlaylistController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EC206BF2410336B002F07DE /* PlaylistController.swift */; };
+		4EC206C2241039FF002F07DE /* SongController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EC206C1241039FF002F07DE /* SongController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +32,8 @@
 		4EC206B924102735002F07DE /* Playlist+Convenience.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Playlist+Convenience.swift"; sourceTree = "<group>"; };
 		4EC206BB24102898002F07DE /* CoreDataStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
 		4EC206BD24102F07002F07DE /* Song+Convenience.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Song+Convenience.swift"; sourceTree = "<group>"; };
+		4EC206BF2410336B002F07DE /* PlaylistController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaylistController.swift; sourceTree = "<group>"; };
+		4EC206C1241039FF002F07DE /* SongController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +92,8 @@
 				4EC206B924102735002F07DE /* Playlist+Convenience.swift */,
 				4EC206BB24102898002F07DE /* CoreDataStack.swift */,
 				4EC206BD24102F07002F07DE /* Song+Convenience.swift */,
+				4EC206BF2410336B002F07DE /* PlaylistController.swift */,
+				4EC206C1241039FF002F07DE /* SongController.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -197,10 +203,12 @@
 			files = (
 				4EC206BC24102898002F07DE /* CoreDataStack.swift in Sources */,
 				3E1DF45923F3222E0002BC07 /* AppDelegate.swift in Sources */,
+				4EC206C2241039FF002F07DE /* SongController.swift in Sources */,
 				4EC206BE24102F07002F07DE /* Song+Convenience.swift in Sources */,
 				3E1DF46323F3222E0002BC07 /* PlaylistCoredata.xcdatamodeld in Sources */,
 				3E1DF45B23F3222E0002BC07 /* SceneDelegate.swift in Sources */,
 				4EC206BA24102735002F07DE /* Playlist+Convenience.swift in Sources */,
+				4EC206C02410336B002F07DE /* PlaylistController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
