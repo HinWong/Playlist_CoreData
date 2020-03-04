@@ -13,6 +13,9 @@
 		3E1DF46323F3222E0002BC07 /* PlaylistCoredata.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3E1DF46123F3222E0002BC07 /* PlaylistCoredata.xcdatamodeld */; };
 		3E1DF46523F322300002BC07 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3E1DF46423F322300002BC07 /* Assets.xcassets */; };
 		3E1DF46823F322300002BC07 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E1DF46623F322300002BC07 /* LaunchScreen.storyboard */; };
+		4EC206BA24102735002F07DE /* Playlist+Convenience.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EC206B924102735002F07DE /* Playlist+Convenience.swift */; };
+		4EC206BC24102898002F07DE /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EC206BB24102898002F07DE /* CoreDataStack.swift */; };
+		4EC206BE24102F07002F07DE /* Song+Convenience.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EC206BD24102F07002F07DE /* Song+Convenience.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		3E1DF46423F322300002BC07 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3E1DF46723F322300002BC07 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3E1DF46923F322300002BC07 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4EC206B924102735002F07DE /* Playlist+Convenience.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Playlist+Convenience.swift"; sourceTree = "<group>"; };
+		4EC206BB24102898002F07DE /* CoreDataStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
+		4EC206BD24102F07002F07DE /* Song+Convenience.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Song+Convenience.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +85,9 @@
 			isa = PBXGroup;
 			children = (
 				3E1DF46123F3222E0002BC07 /* PlaylistCoredata.xcdatamodeld */,
+				4EC206B924102735002F07DE /* Playlist+Convenience.swift */,
+				4EC206BB24102898002F07DE /* CoreDataStack.swift */,
+				4EC206BD24102F07002F07DE /* Song+Convenience.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -186,9 +195,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4EC206BC24102898002F07DE /* CoreDataStack.swift in Sources */,
 				3E1DF45923F3222E0002BC07 /* AppDelegate.swift in Sources */,
+				4EC206BE24102F07002F07DE /* Song+Convenience.swift in Sources */,
 				3E1DF46323F3222E0002BC07 /* PlaylistCoredata.xcdatamodeld in Sources */,
 				3E1DF45B23F3222E0002BC07 /* SceneDelegate.swift in Sources */,
+				4EC206BA24102735002F07DE /* Playlist+Convenience.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
