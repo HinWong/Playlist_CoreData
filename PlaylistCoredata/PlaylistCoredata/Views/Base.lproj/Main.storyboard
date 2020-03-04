@@ -169,8 +169,17 @@
                         <viewLayoutGuide key="safeArea" id="4f5-90-Fpt"/>
                     </view>
                     <navigationItem key="navigationItem" title="Songs" id="6Nf-gj-FHr">
-                        <barButtonItem key="rightBarButtonItem" style="plain" systemItem="add" id="AQL-Mm-Cub"/>
+                        <barButtonItem key="rightBarButtonItem" style="plain" systemItem="add" id="AQL-Mm-Cub">
+                            <connections>
+                                <action selector="songAddButtonTapped:" destination="kvi-k0-zwt" id="CT5-Sz-L3u"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
+                    <connections>
+                        <outlet property="artistTextField" destination="drt-Jj-10k" id="eky-Fa-AQT"/>
+                        <outlet property="songTableView" destination="Ebd-N1-ryy" id="fAC-Ph-jgf"/>
+                        <outlet property="songTextField" destination="PUZ-UR-bOT" id="7fm-0k-96W"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fgB-bi-8mr" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>

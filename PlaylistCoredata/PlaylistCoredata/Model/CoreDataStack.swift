@@ -12,7 +12,7 @@ import CoreData
 enum CoreDataStack {
     
     static let container: NSPersistentContainer = {
-       let container = NSPersistentContainer(name: "PlaylistCoreData")
+       let container = NSPersistentContainer(name: "PlaylistCoredata")
         container.loadPersistentStores { (_, error) in
             if let error = error {
                 fatalError("Failed to load persistet stores \(error)")
