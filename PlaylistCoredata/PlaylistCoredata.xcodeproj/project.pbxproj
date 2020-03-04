@@ -18,6 +18,8 @@
 		4EC206BE24102F07002F07DE /* Song+Convenience.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EC206BD24102F07002F07DE /* Song+Convenience.swift */; };
 		4EC206C02410336B002F07DE /* PlaylistController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EC206BF2410336B002F07DE /* PlaylistController.swift */; };
 		4EC206C2241039FF002F07DE /* SongController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EC206C1241039FF002F07DE /* SongController.swift */; };
+		4EC206C524104F90002F07DE /* PlaylistViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EC206C424104F90002F07DE /* PlaylistViewController.swift */; };
+		4EC206C724104FA9002F07DE /* SongDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EC206C624104FA9002F07DE /* SongDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,8 +34,11 @@
 		4EC206B924102735002F07DE /* Playlist+Convenience.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Playlist+Convenience.swift"; sourceTree = "<group>"; };
 		4EC206BB24102898002F07DE /* CoreDataStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
 		4EC206BD24102F07002F07DE /* Song+Convenience.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Song+Convenience.swift"; sourceTree = "<group>"; };
-		4EC206BF2410336B002F07DE /* PlaylistController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaylistController.swift; sourceTree = "<group>"; };
+		4EC206BF2410336B002F07DE /* PlaylistController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = PlaylistController.swift; path = "../../../Model Controllers/PlaylistController.swift"; sourceTree = "<group>"; };
 		4EC206C1241039FF002F07DE /* SongController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongController.swift; sourceTree = "<group>"; };
+		4EC206C324104E8F002F07DE /* PlaylistController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = PlaylistController.swift; path = "../../../../Model Controllers/PlaylistController.swift"; sourceTree = "<group>"; };
+		4EC206C424104F90002F07DE /* PlaylistViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = PlaylistViewController.swift; path = PlaylistCoredata/Model/PlaylistViewController.swift; sourceTree = SOURCE_ROOT; };
+		4EC206C624104FA9002F07DE /* SongDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SongDetailViewController.swift; path = PlaylistCoredata/Model/SongDetailViewController.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,8 +97,8 @@
 				4EC206B924102735002F07DE /* Playlist+Convenience.swift */,
 				4EC206BB24102898002F07DE /* CoreDataStack.swift */,
 				4EC206BD24102F07002F07DE /* Song+Convenience.swift */,
-				4EC206BF2410336B002F07DE /* PlaylistController.swift */,
 				4EC206C1241039FF002F07DE /* SongController.swift */,
+				4EC206C324104E8F002F07DE /* PlaylistController.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -112,6 +117,8 @@
 			children = (
 				3E1DF47423F322A90002BC07 /* ViewControllers */,
 				3E1DF47323F322A30002BC07 /* Model Controllers */,
+				4EC206C424104F90002F07DE /* PlaylistViewController.swift */,
+				4EC206C624104FA9002F07DE /* SongDetailViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -119,6 +126,7 @@
 		3E1DF47323F322A30002BC07 /* Model Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				4EC206BF2410336B002F07DE /* PlaylistController.swift */,
 			);
 			path = "Model Controllers";
 			sourceTree = "<group>";
@@ -206,6 +214,8 @@
 				4EC206C2241039FF002F07DE /* SongController.swift in Sources */,
 				4EC206BE24102F07002F07DE /* Song+Convenience.swift in Sources */,
 				3E1DF46323F3222E0002BC07 /* PlaylistCoredata.xcdatamodeld in Sources */,
+				4EC206C524104F90002F07DE /* PlaylistViewController.swift in Sources */,
+				4EC206C724104FA9002F07DE /* SongDetailViewController.swift in Sources */,
 				3E1DF45B23F3222E0002BC07 /* SceneDelegate.swift in Sources */,
 				4EC206BA24102735002F07DE /* Playlist+Convenience.swift in Sources */,
 				4EC206C02410336B002F07DE /* PlaylistController.swift in Sources */,
